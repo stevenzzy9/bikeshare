@@ -253,6 +253,14 @@ def display_data(df):
             json_row = json.dumps(parsed_row, indent=2)
             print(json_row)
 
+def login():
+    print("\nThis is login function")
+
+
+def logoff():
+    print("\nThis is logoff function")
+
+
 def main():
     while True:
         city, month, day = get_filters()
