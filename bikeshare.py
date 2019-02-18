@@ -60,6 +60,11 @@ def get_filters():
 
     return city, month, day
 
+def refactoring_login():
+    print('\nThis is refactoring login function.\n')
+
+def refactoring_logoff():
+    print('\nThis is refactoring logoff function.\n')
 
 def load_data(city, month, day):
     """
